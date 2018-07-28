@@ -4360,7 +4360,7 @@ Shadow=0</a:DisplayPreferences>
 <o:ReferenceSymbol Id="o5">
 <a:CreationDate>1465547643</a:CreationDate>
 <a:ModificationDate>1532426692</a:ModificationDate>
-<a:Rect>((9288,32833), (24409,34038))</a:Rect>
+<a:Rect>((9288,32833), (24409,34047))</a:Rect>
 <a:ListOfPoints>((24409,33112),(9288,33051))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -4424,7 +4424,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 <o:ReferenceSymbol Id="o16">
 <a:CreationDate>1465547643</a:CreationDate>
 <a:ModificationDate>1532426719</a:ModificationDate>
-<a:Rect>((-19575,33074), (3208,34295))</a:Rect>
+<a:Rect>((-19575,33074), (3208,34304))</a:Rect>
 <a:ListOfPoints>((-19575,33381),(3208,33270))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -4575,7 +4575,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 <o:ReferenceSymbol Id="o35">
 <a:CreationDate>1466574780</a:CreationDate>
 <a:ModificationDate>1532426688</a:ModificationDate>
-<a:Rect>((32223,18431), (53809,19623))</a:Rect>
+<a:Rect>((32223,18431), (53809,19638))</a:Rect>
 <a:ListOfPoints>((53809,18712),(32223,18643))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -4596,7 +4596,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 <o:ReferenceSymbol Id="o38">
 <a:CreationDate>1466574782</a:CreationDate>
 <a:ModificationDate>1532426676</a:ModificationDate>
-<a:Rect>((56630,20191), (57085,32978))</a:Rect>
+<a:Rect>((53606,20191), (60085,32978))</a:Rect>
 <a:ListOfPoints>((56819,20191),(56882,32978))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -4638,7 +4638,7 @@ DESTINATION 0 新宋体,8,N</a:FontList>
 <o:ReferenceSymbol Id="o43">
 <a:CreationDate>1532430592</a:CreationDate>
 <a:ModificationDate>1532430700</a:ModificationDate>
-<a:Rect>((37152,33636), (43452,45132))</a:Rect>
+<a:Rect>((37063,33636), (43542,45132))</a:Rect>
 <a:ListOfPoints>((40225,33636),(40405,45132))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -5427,11 +5427,11 @@ COLLATE = utf8_bin</a:PhysicalOptions>
 <a:Code>phone</a:Code>
 <a:CreationDate>1465547643</a:CreationDate>
 <a:Creator>aaa</a:Creator>
-<a:ModificationDate>1532420648</a:ModificationDate>
+<a:ModificationDate>1532775522</a:ModificationDate>
 <a:Modifier>bytegriffin</a:Modifier>
 <a:Comment>手机号码</a:Comment>
-<a:DataType>varchar(20)</a:DataType>
-<a:Length>20</a:Length>
+<a:DataType>varchar(30)</a:DataType>
+<a:Length>30</a:Length>
 </o:Column>
 <o:Column Id="o89">
 <a:ObjectID>6899E2A7-96B4-40EA-8C62-122D590E64E0</a:ObjectID>
@@ -5439,11 +5439,11 @@ COLLATE = utf8_bin</a:PhysicalOptions>
 <a:Code>email</a:Code>
 <a:CreationDate>1465547643</a:CreationDate>
 <a:Creator>aaa</a:Creator>
-<a:ModificationDate>1532420652</a:ModificationDate>
+<a:ModificationDate>1532774963</a:ModificationDate>
 <a:Modifier>bytegriffin</a:Modifier>
 <a:Comment>邮箱</a:Comment>
-<a:DataType>varchar(20)</a:DataType>
-<a:Length>20</a:Length>
+<a:DataType>varchar(40)</a:DataType>
+<a:Length>40</a:Length>
 </o:Column>
 <o:Column Id="o90">
 <a:ObjectID>F17BD92D-1DA6-4C11-98C2-78BB62B2225C</a:ObjectID>
@@ -5451,11 +5451,11 @@ COLLATE = utf8_bin</a:PhysicalOptions>
 <a:Code>id_number</a:Code>
 <a:CreationDate>1465547643</a:CreationDate>
 <a:Creator>aaa</a:Creator>
-<a:ModificationDate>1532420655</a:ModificationDate>
+<a:ModificationDate>1532775006</a:ModificationDate>
 <a:Modifier>bytegriffin</a:Modifier>
 <a:Comment>身份证号</a:Comment>
-<a:DataType>varchar(20)</a:DataType>
-<a:Length>20</a:Length>
+<a:DataType>varchar(30)</a:DataType>
+<a:Length>30</a:Length>
 </o:Column>
 <o:Column Id="o91">
 <a:ObjectID>F88808B4-8CD2-4F42-800E-6D2453A30EF0</a:ObjectID>

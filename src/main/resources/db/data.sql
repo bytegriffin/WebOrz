@@ -14,21 +14,21 @@ INSERT INTO sys_permission (id,parent_id,code,name,types,url,priority,levels,ico
 INSERT INTO sys_permission (id,parent_id,code,name,types,url,priority,levels,icon,status,create_by,create_time) VALUES (12, 9, '00030003', 'Sparkline', '1', 'chart/sparkline', 1,2,'fa-area-chart','1','1',now());
 
 
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (1, 'admin', 'admin@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138001','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (2, 'admin1', 'admin1@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13900139002','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (3, 'admin2', 'admin2@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138003','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (4, 'zhangsan', 'zhangsan@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138004','2','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (5, 'lisi', 'lisi@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138005','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (6, 'wangwu', 'wangwu@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138006','2','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (7, 'maliu', 'maliu@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138007','2','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (8, 'liudehua', '8888@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138008','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (9, 'guofucheng', '999@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138009','2','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (10, 'zhangxueyou', '101010@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138010','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (11, 'wanganshi', '111111@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138011','2','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (12, 'wuming1', '121212@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138012','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (13, 'wuming2', '131313@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138013','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (14, 'lijiaxin', '141414@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138014','1','1',now());
-INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (15, 'test', 'test@webmartini.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138015','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (1, 'admin', 'admin@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138001','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (2, 'admin1', 'admin1@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13900139002','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (3, 'admin2', 'admin2@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138003','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (4, 'zhangsan', 'zhangsan@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138004','2','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (5, 'lisi', 'lisi@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138005','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (6, 'wangwu', 'wangwu@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138006','2','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (7, 'maliu', 'maliu@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138007','2','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (8, 'liudehua', '8888@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138008','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (9, 'guofucheng', '999@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138009','2','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (10, 'zhangxueyou', '101010@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138010','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (11, 'wanganshi', '111111@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138011','2','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (12, 'wuming1', '121212@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138012','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (13, 'wuming2', '131313@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138013','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (14, 'lijiaxin', '141414@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138014','1','1',now());
+INSERT INTO sys_user (id,login_name,email,password,phone,status,create_by,create_time) VALUES (15, 'test', 'test@weborz.com', 'E10ADC3949BA59ABBE56E057F20F883E', '13800138015','1','1',now());
 
 
 INSERT INTO sys_role (id,parent_id,code,name,status,create_by,create_time) VALUES (1, 0, '0001', '系统管理员' ,'1' ,'1', now());

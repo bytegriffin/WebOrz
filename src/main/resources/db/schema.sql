@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2018/7/26 17:53:48                           */
+/* Created on:     2018/7/28 18:58:50                           */
 /*==============================================================*/
 
 
@@ -247,9 +247,9 @@ create table sys_user
    sex                  varchar(10) comment '用户性别',
    birthday             varchar(20) comment '出生日期',
    avatar               varchar(1024) comment '头像',
-   phone                varchar(20) comment '手机号码',
-   email                varchar(20) comment '邮箱',
-   id_number            varchar(20) comment '身份证号',
+   phone                varchar(30) comment '手机号码',
+   email                varchar(40) comment '邮箱',
+   id_number            varchar(30) comment '身份证号',
    password             varchar(100) comment '登陆密码',
    salt                 varchar(100) comment '盐加密',
    status               varchar(20) comment '用户账号状态 1.正常  2.锁定 ',
@@ -360,3 +360,4 @@ create table sys_user_session
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_bin;
+
