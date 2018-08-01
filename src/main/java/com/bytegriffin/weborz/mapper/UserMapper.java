@@ -11,5 +11,4 @@ import com.bytegriffin.weborz.entity.User;
 @Mapper
 public interface UserMapper extends BaseMapper<User>{
 
-	List<String> getGroupNamesByUserId(@Param("userId") String userId);
 }

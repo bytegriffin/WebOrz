@@ -5,7 +5,6 @@ import java.util.Date;
 import java.util.Set;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -14,7 +13,6 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
-import com.fasterxml.jackson.annotation.JsonFormat;
 
 @TableName(value = "sys_user")
 public class User extends Model<User> implements java.io.Serializable {
@@ -26,24 +24,25 @@ public class User extends Model<User> implements java.io.Serializable {
     @TableId(value = "id", type = IdType.AUTO)
 	private String id;
     private String phone;
-    
-    @NotEmpty private String name;
-
+    private String name;
 	@TableField(value = "login_name")
-	private String loginName;
+	@NotEmpty private String loginName;
 	private String password;
-	private String sex;//null:保密  0:女  1:男
+	@NotEmpty private String sex;//null:保密  0:女  1:男
 	private String email;
 	private String birthday;
 	private String avatar;
-	private String home;
-	private String postcode;
+
+	@TableField(value = "id_number")
 	private String idNumber;
-	private String address;
+	@TableField(value = "regist_time")
 	private Date registTime;
+	@TableField(value = "login_time")
 	private Date loginTime;
 	private String status;
+	@TableField(value = "login_ip")
 	private String loginIP;
+	@TableField(value = "login_count")
 	private int loginCount;
 	@TableField(exist=false)
 	private boolean checked;//多选框是否被选中
@@ -57,11 +56,15 @@ public class User extends Model<User> implements java.io.Serializable {
 	private String groupNamesStr;//groupNames字段的str版
 	@TableField(exist=false)
 	private String roleNamesStr;//roleNames字段的str版
-	
-	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+	@TableField("create_by")
+	private String createBy;
     @TableField("create_time")
     private Date createTime;
-
+    @TableField("update_by")
+	private String updateBy;
+    @TableField("update_time")
+    private Date updateTime;
+    
 	public String getSexStr(String sex){
 		if(sex == null || sex.equals("")){
 			return "保密";
@@ -121,7 +124,6 @@ public class User extends Model<User> implements java.io.Serializable {
 		this.checked = checked;
 	}
 
-
 	public String getStatus() {
 		return status;
 	}
@@ -137,8 +139,6 @@ public class User extends Model<User> implements java.io.Serializable {
 	public void setLoginIP(String loginIP) {
 		this.loginIP = loginIP;
 	}
-
-
 
 	public String getBirthday() {
 		return birthday;
@@ -156,36 +156,12 @@ public class User extends Model<User> implements java.io.Serializable {
 		this.avatar = avatar;
 	}
 
-	public String getHome() {
-		return home;
-	}
-
-	public void setHome(String home) {
-		this.home = home;
-	}
-
-	public String getPostcode() {
-		return postcode;
-	}
-
-	public void setPostcode(String postcode) {
-		this.postcode = postcode;
-	}
-
 	public String getIdNumber() {
 		return idNumber;
 	}
 
 	public void setIdNumber(String idNumber) {
 		this.idNumber = idNumber;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
 	}
 
 	public Date getRegistTime() {
@@ -197,13 +173,11 @@ public class User extends Model<User> implements java.io.Serializable {
 	}
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 	public Date getLoginTime() {
 		return loginTime;
 	}
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 	public void setLoginTime(Date loginTime) {
 		this.loginTime = loginTime;
 	}
@@ -277,12 +251,35 @@ public class User extends Model<User> implements java.io.Serializable {
 		return this.id;
 	}
 
-	// @Override
-	// public String toString() {
-	// return "UserEntity [id=" + id + ", userName=" + userName + ", password="
-	// +
-	// password + ", sex=" + sex
-	// + ", email=" + email + "]";
-	// }
+	public String getCreateBy() {
+		return createBy;
+	}
 
+	public void setCreateBy(String createBy) {
+		this.createBy = createBy;
+	}
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
+	public String getUpdateBy() {
+		return updateBy;
+	}
+
+	public void setUpdateBy(String updateBy) {
+		this.updateBy = updateBy;
+	}
+
+	public Date getUpdateTime() {
+		return updateTime;
+	}
+
+	public void setUpdateTime(Date updateTime) {
+		this.updateTime = updateTime;
+	}
 }

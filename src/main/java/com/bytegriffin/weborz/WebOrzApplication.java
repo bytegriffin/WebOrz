@@ -18,9 +18,7 @@ public class WebOrzApplication  extends SpringBootServletInitializer{
 	}
 
 	public static void main(String[] args) {
-		System.out.println("------------SpringBoot开始启动------------------");
 		SpringApplication.run(WebOrzApplication.class, args);
-		System.out.println("------------SpringBoot启动完成------------------");
 	}
 
 }

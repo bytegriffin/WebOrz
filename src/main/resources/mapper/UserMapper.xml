@@ -60,9 +60,6 @@
         </if>
     </select>
 
-    <select id="getUserById" parameterType="String" resultMap="userMapper">
-        select * from users where id=#{id}     
-    </select>
     
     <select id="getUserByLoginName" parameterType="String" resultMap="userMapper">
         select * from users where login_name=#{loginName}     
