@@ -3,10 +3,11 @@ package com.bytegriffin.weborz.error;
 import org.springframework.boot.web.server.ErrorPage;
 import org.springframework.boot.web.server.ErrorPageRegistrar;
 import org.springframework.boot.web.server.ErrorPageRegistry;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpStatus;
 
 
-@Component
+//@Component
 public class ErrorConfigurar implements ErrorPageRegistrar {
 
     @Override
@@ -16,4 +17,6 @@ public class ErrorConfigurar implements ErrorPageRegistrar {
         // errorPages[1]=new ErrorPage(HttpStatus.INTERNAL_SERVER_ERROR,"/error500");
         
     }
+    
+    
 }
