@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2018/7/28 18:58:50                           */
+/* Created on:     2018/8/1 23:29:12                            */
 /*==============================================================*/
 
 
@@ -253,6 +253,8 @@ create table sys_user
    password             varchar(100) comment '登陆密码',
    salt                 varchar(100) comment '盐加密',
    status               varchar(20) comment '用户账号状态 1.正常  2.锁定 ',
+   address              varchar(200) comment '用户住址',
+   postcode             varchar(20) comment '邮政编码',
    regist_time          datetime comment '注册时间',
    login_time           datetime comment '登陆时间',
    login_count          int comment '登陆次数',
@@ -360,4 +362,3 @@ create table sys_user_session
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_bin;
-
