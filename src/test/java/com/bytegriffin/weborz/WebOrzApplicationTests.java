@@ -11,8 +11,6 @@ public class WebOrzApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.err.println("=====================");
 	}
 
-	
 }

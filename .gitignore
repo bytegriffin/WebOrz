@@ -1,21 +1,5 @@
 /target/
-.settings/
-.mvn/
-.metadata  
-.myeclipse
-.pydevproject
-/out/
-*.jar
-*.war  
-*.ear  
-*.class  
-classes/  
-.svn
-.*.swp  
-.DS_Store
-*.tmp  
-*.bak  
-*.swp 
+!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -24,6 +8,7 @@ classes/
 .project
 .settings
 .springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -32,9 +17,9 @@ classes/
 *.ipr
 
 ### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
